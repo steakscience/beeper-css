@@ -51,3 +51,12 @@
   height: 24px !important;
   width: 24px !important;
 }
+
+/* Fix inconsistent room header bg color */
+.mx_RoomHeader {
+  background-color: unset !important;
+}
+
+.mx_RoomHeader_topicContainer .mx_RoomHeader_topic {
+  opacity: 1 !important;
+}
