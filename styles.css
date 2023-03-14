@@ -1,0 +1,53 @@
+/* Hide extraneous UI */
+.bridgeIcon_container, #beeperSpaceBar, .bp_ArchivedList, #sticky-header-portal, .active-indicator.pin, .mx_RoomHeader_BridgedIcon {
+  display: none !important;
+}
+
+/* Improve message list spacing */
+.rooms_scroll-container {
+  padding-top: 8px;
+}
+
+.bp_RoomTile .name {
+  margin-bottom: 2px;
+}
+
+.bp_RoomTile .details .row > * {
+  line-height: 1.2;
+}
+
+.bp_RoomTile .timestamp {
+  opacity: 0.6;
+}
+
+/* Make avatars smaller */
+.outline .bp_RoomTile:not(.small) .outline .mx_BaseAvatar, .bp_RoomTile:not(.small) .outline .mx_BaseAvatar_image {
+  height: 40px;
+  width: 40px;
+}
+
+.outline .mx_BaseAvatar_initial.mx_BaseAvatar_initial--colourful {
+  font-size: 16px;
+  width: 40px;
+  line-height: 40px;
+}
+
+.outline .mx_BaseAvatar_image.bp_Avatar.bp_Avatar_bg--dynamic, .mx_BaseAvatar.mx_BaseAvatar_image.avatar {
+  width: 40px !important;
+  height: 40px !important;
+}
+
+.bp_RoomTile:not(.small) .outline {
+  grid-template-columns: 10px 52px 1fr auto !important;
+}
+
+.mx_DecoratedRoomAvatar .mx_BaseAvatar_initial.mx_BaseAvatar_initial--colourful {
+  font-size: 10px !important;
+  line-height: 24px !important;
+  width: 24px !important;
+}
+
+.mx_DecoratedRoomAvatar .mx_BaseAvatar_image {
+  height: 24px !important;
+  width: 24px !important;
+}
