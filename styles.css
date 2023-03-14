@@ -27,9 +27,15 @@
 }
 
 .outline .mx_BaseAvatar_initial.mx_BaseAvatar_initial--colourful {
-  font-size: 16px;
-  width: 40px;
-  line-height: 40px;
+  font-size: 16px !important;
+  width: 40px !important;
+  line-height: 40px !important;
+}
+
+.outline .mx_BaseAvatar {
+  width: 40px !important;
+  height: 40px !important;
+  line-height: 40px !important;
 }
 
 .outline .mx_BaseAvatar_image.bp_Avatar.bp_Avatar_bg--dynamic, .mx_BaseAvatar.mx_BaseAvatar_image.avatar {
